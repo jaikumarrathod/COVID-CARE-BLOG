@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="./about us.html">
+<link rel="stylesheet" href="./about us.html">
+<link rel="stylesheet" href="./index.html">
+<link rel="stylesheet" href="./about us.html">
+<link rel="stylesheet" href="./style.css">
+    <title>Covid Care</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Covid Care</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./about us.html">About Us</a>
+            </li>     
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Covid in Numbers & Map
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://coronavirus.jhu.edu/map.html" target="_blank">World(Compiled by JHU)</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://covid19.who.int/region/searo/country/in" target="_blank">India</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://covid19.telangana.gov.in/" target="_blank">State</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Precautions
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/index.html" target="_blank">For Health Care Workers</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-home-care-for-families-and-caregivers" target="_blank">For Families</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://www.who.int/westernpacific/emergencies/covid-19/information/transmission-protective-measures" target="_blank">Individuals</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+          <div class="mx-2">
+<button class="btn btn-secondary" data-toggle="modal" data-target="#loginModal">Login</button>
+<button class="btn btn-primary" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+   
+
+
+<!-- loginModal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" 
+aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- signupModal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="container-fluid">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./impact1..jpg" class="d-block w-100 " alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://source.unsplash.com/daily?covid" class="d-block w-100 " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://source.unsplash.com/daily?covid" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="impact4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="impact5.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container my-5">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary"></strong>
+            <h3 class="mb-0">Never Panic</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto">Please follow appropriate Covid-19 behaviour</p>
+            <a href="https://www.nature.com/articles/d41586-020-01409-2" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img  class="bd-placeholder-img" width="200" height="250" src="./thumb1.jpg" alt="">
+  
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Trust the Facts</strong>
+            <h3 class="mb-0">Get the Vax</h3>
+            <div class="mb-1 text-muted">Today</div>
+            <p class="mb-auto">The only way to protect yourself and your family is through vaccination</p>
+            <a href="" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <div class="col-auto d-none d-lg-block">
+              <img  class="bd-placeholder-img" width="200" height="250" src="./thumb2.jpg" alt="">
+    
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+     <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>Holy guacamole!</strong> You should always wear a face mask and sanitise your hands & avoid touching eyes, nose and mouth.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div class="container">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Origins of Corona Virus</h2>
+          <p class="lead">The Origins of  the deadly Virus</p>
+          The current COVID-19 pandemic is caused by a coronavirus named SARS-CoV-2. Coronaviruses (CoVs) are a large family of
+          viruses, several of which cause respiratory diseases in humans, from the common cold to more rare and serious diseases such as
+          the Severe Acute Respiratory Syndrome (SARS) and the Middle East respiratory syndrome (MERS), both of which have high
+          mortality rates and were detected for the first time in 2003 and 2012, respectively.
+          CoVs are divided into four genera: alpha-, beta-, gamma- and delta-CoV. All CoVs currently known to cause disease in humans
+          belong to the alpha- or the beta-CoV. Many of these CoVs can infect several animal species as well. SARS-CoV infected civet cats
+          and infected humans in 2002 and MERS-CoV is found in dromedary camels and infected humans in 2012. A virus that is regularly
+          transmitted from an animal to a human is called a zoonotic virus. When a virus passes from animals to humans for the first time it
+          is called a spillover event.
+          When a new virus is discovered, it is important to understand where it comes from. This is critical to be able to identify and isolate
+          the source and prevent further introductions of the virus into the human population. It also helps to understand the dynamic of the
+          beginning of the outbreak, which can be used to inform the public health response. Understanding the origin of the virus may also
+          aid the development of therapeutics and vaccines.
+          To identify the source or origin of a virus, it is helpful to look at the genetic makeup of the virus and see whether it resembles other
+          known viruses. This may provide some clues as to its origin. Viruses that are genetically closely linked tend to come from a similar
+          source or similar geographic area. SARS-CoV-2, the virus responsible for COVID-19, belongs to a group of genetically related
+          viruses that includes SARS-CoV and a number of other CoVs isolated from bat populations. MERS-CoV also belongs to this group
+          but is less closely related.
+          It is also necessary to investigate and interview in depth the first known human cases of the disease for indications as to where they
+          may have become infected. This may help identify earlier possible cases and narrow the geographical areas and timeframes so that
+          more specific investigations could be performed to identify the source.
+          Currently, the zoonotic source of SARS-CoV-2 is unknown. The first human cases of COVID-19, the coronavirus disease caused
+          by SARS-CoV-2, were first reported from Wuhan City, China, in December 2019.</div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="700" src="./featurette 1.jpg" alt="">
+  
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Humanity's battle with viruses</h2>
+          <p class="lead">Are Viruses always harmful to humans</p>
+            <p>There are 219 virus species that are known to be able to infect humans. The first of these to be discovered was yellow fever virus in 1901, and three to four new species are still being found every year. Extrapolation of the discovery curve suggests that there is still a substantial pool of undiscovered human virus species, although an apparent slow-down in the rate of discovery of species from different families may indicate bounds to the potential range of diversity. More than two-thirds of human viruses can also infect non-human hosts, mainly mammals, and sometimes birds. Many specialist human viruses also have mammalian or avian origins. Indeed, a substantial proportion of mammalian viruses may be capable of crossing the species barrier into humans, although only around half of these are capable of being transmitted by humans and around half again of transmitting well enough to cause major outbreaks. A few possible predictors of species jumps can be identified, including the use of phylogenetically conserved cell receptors. It seems almost inevitable that new human viruses will continue to emerge, mainly from other mammals and birds, for the foreseeable future. For this reason, an effective global surveillance system for novel viruses is needed.</p>
+               </div>
+        <div class="col-md-5 order-md-1">
+          <img width="500" height="400" src="./virus2.jpg" alt="">
+  
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">The days of bird masks, plaques</h2>
+          <p class="lead">History says that there is a constant resurgence of diseases trying to wipe-out humanity </p>
+          Intermittent outbreaks of infectious diseases have had profound and lasting effects on societies throughout history. Those events have powerfully shaped the economic, political, and social aspects of human civilization, with their effects often lasting for centuries. Epidemic outbreaks have defined some of the basic tenets of modern medicine, pushing the scientific community to develop principles of epidemiology, prevention, immunization, and antimicrobial treatments. This chapter outlines some of the most notable outbreaks that took place in human history and are relevant for a better understanding of the rest of the material. Starting with religious texts, which heavily reference plagues, this chapter establishes the fundamentals for our understanding of the scope, social, medical, and psychological impact that some pandemics effected on civilization, including the Black Death (a plague outbreak from the fourteenth century), the Spanish Flu of 1918, and the more recent outbreaks in the twenty-first century, including SARS, Ebola, and Zika.
+          <br>The COVID-19 pandemic has led to a dramatic loss of human life worldwide and presents an unprecedented challenge to public health, food systems and the world of work. The economic and social disruption caused by the pandemic is devastating: tens of millions of people are at risk of falling into extreme poverty, while the number of undernourished people, currently estimated at nearly 690 million, could increase by up to 132 million by the end of the year.
+
+          Millions of enterprises face an existential threat. Nearly half of the world’s 3.3 billion global workforce are at risk of losing their livelihoods. Informal economy workers are particularly vulnerable because the majority lack social protection and access to quality health care and have lost access to productive assets. Without the means to earn an income during lockdowns, many are unable to feed themselves and their families. For most, no income means no food, or, at best, less food and less nutritious food. 
+          
+         <br> The pandemic has been affecting the entire food system and has laid bare its fragility. Border closures, trade restrictions and confinement measures have been preventing farmers from accessing markets, including for buying inputs and selling their produce, and agricultural workers from harvesting crops, thus disrupting domestic and international food supply chains and reducing access to healthy, safe and diverse diets. The pandemic has decimated jobs and placed millions of livelihoods at risk. As breadwinners lose jobs, fall ill and die, the food security and nutrition of millions of women and men are under threat, with those in low-income countries, particularly the most marginalized populations, which include small-scale farmers and indigenous peoples, being hardest hit.
+          n the fourteenth century, the world was ravaged by the bubonic plague. 
+          <br>The Black Death, as it was known, first originated from Asia and spread to the Mediterranean. In Europe, its first point of call was Italy where it unleashed horrific devastations before crossing over to other parts of the continent. The pandemic decimated one-third of Europe’s population and ultimately spread to other continents. Italy was the hardest hit, being unfamiliar with the disease and therefore lacking any clear containment measures ahead of its influx. 
+        </div>
+          
+          <div class="col-md-5">
+          <img width="500" height="1117" src="./row feauturette.jpg" alt="">
+        </div>
+      </div>
+      
+    </div>    
+    <div class="card text-center">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="card-footer text-muted">
+        2 days ago
+      </div>
+    </div>
+
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>© 2021–2022 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+ -->
+  </body>
+</html>

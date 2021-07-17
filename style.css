@@ -1,0 +1,26 @@
+.breadcrumb{
+    background-color:skyblue
+}
+.navbar-toggler:hover{
+transform: scale(1.5) !important
+}
+.active:hover{
+    transform: scale(1.5) !important
+}
+.body{
+    background-image: url(./corona.jpg);
+}
+.alert{
+    border-radius: 1rem !important
+}
+.my-5{
+    
+    margin-bottom: 1rem!important;
+}
+.img-fluid{
+    height: 500px !important;
+}
+.about{
+    font-size: 500 !important;
+    
+}
